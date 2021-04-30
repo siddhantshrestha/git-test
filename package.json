@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "this is a test directory",
   "main": "index.html",
-  "scripts": {"start": "npm run lite",
+  "scripts": {
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server"
   },
@@ -19,5 +20,10 @@
   "homepage": "https://github.com/siddhantshrestha/git-test#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
   }
 }
